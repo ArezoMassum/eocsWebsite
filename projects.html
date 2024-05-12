@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Projects</title>
+  <!-- Include your CSS files here -->
+
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/icomoon.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/superfish.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    .logo-img {
+      width: 100px; /* Adjust this value to your preference */
+      height: auto; /* This will maintain the aspect ratio */
+    }
+    #fh5co-header-section.sticky-banner {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #fff; /* Add background color to differentiate it from the rest of the page */
+      z-index: 1000; /* Ensure the navbar stays on top of other content */
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Add a shadow for depth */
+    }
+    .main-container {
+      padding-top: 150px; /* Add top padding to create space between navbar and projects */
+    }
+    .projects-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; /* Center-align the projects */
+    }
+    .project {
+      padding: 20px;
+      max-width: 400px; /* Set maximum width for better responsiveness */
+      margin: 20px; /* Add margin between projects */
+    }
+
+    .project-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Center-align the content */
+    }
+
+    /* Target project images specifically */
+    .projects-container .project .project-content .project-image {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      border-radius: 20px; /* Add border-radius for rounded corners */
+    }
+
+    .project-details {
+      width: 100%; /* Adjust the width as needed */
+      padding: 20px; /* Add padding to the details */
+      text-align: center;
+    }
+
+    .project-details h2 {
+      font-size: 1.5rem; /* Adjust font size for headings */
+      margin-bottom: 10px;
+      text-align: center;
+      font-weight: bold; /* Make the heading bold */
+    }
+
+    .project-details p {
+      font-size: 1.2rem; /* Adjust font size for paragraphs */
+      line-height: 1.5;
+    }
+  </style>
+
+
+
+
+</head>
+<body>
+
+<!-- Paste the navbar section here -->
+<header id="fh5co-header-section" class="sticky-banner">
+  <div class="container">
+    <div class="nav-header">
+      <!-- Hamburger Menu Icon for Mobile -->
+      <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
+      <h1 id="fh5co-logo"><a href="index.html"><img class="logo-img" src="img/Dernek Logo PNG.png" alt="Your Logo"></a></h1>
+
+      <!-- Navigation Menu -->
+      <nav id="fh5co-menu-wrap" role="navigation">
+        <ul class="sf-menu" id="fh5co-primary-menu">
+          <li class="nav-item active"><a href="index.html" class="nav-link">Anasayfa</a></li>
+          <li class="nav-item"><a href="aboutus.html" class="nav-link">Hakkımızda</a></li>
+          <li class="nav-item"><a href="projects.html" class="nav-link">Projelerimiz</a></li>
+          <li class="nav-item">
+            <a href="donation.html" class="nav-link">Destek Ol</a>
+            <ul class="fh5co-sub-menu">
+              <li><a href="https://forms.gle/wym874aV6PyKPRER7">Maddi Bağış</a></li>
+              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeA8tOvv-jFXWJxFdrTZVvRWjTSD0eGF365H5r2ExK5UEKtxw/viewform?usp=sf_link">Kitap Bağışı</a></li>
+              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf_1K-WzmKBqNv1FELuqQmvIpUw3QFC8PwDtzZx3Bf5P5RtEw/viewform?usp=sf_link">Kırtasiye Bağışı</a></li>
+              <li><a href="https://forms.gle/4DjvAdgT1ie1RCJD9">Giysi Bağışı</a></li>
+              <li><a href="https://forms.gle/vcY4ekPvpnSs9mFy7">Özel Gün Bağışı</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Bize Katıl</a> <!-- Changed href to "#" to indicate it's a dropdown -->
+            <ul class="fh5co-sub-menu">
+              <li><a href="https://forms.gle/U7yd8mKn1bgk4etq5">Üretim Ekibimize Katıl</a></li>
+              <li><a href="https://forms.gle/dJkDTiuaKpowspBi8">Gönüllü Ol</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="https://forms.gle/CdCHFNFKxF37JFfKA" class="nav-link">Bize Ulaşın</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </div>
+</header>
+<!-- End of navbar section -->
+
+<!-- Main container with padding -->
+<!-- Main container with padding -->
+<div class="main-container">
+  <main class="projects-container">
+    <!-- Project 1: Sesli Kütüphane -->
+    <div class="project">
+      <div class="project-content">
+        <img src=img/seslikutuphane.jpeg alt="Project 1 Image" class="project-image">
+        <div class="project-details">
+          <h2>  Sesli Kütüphane  </h2>
+          <p>Sesli Kütüphane 1, 2 ve 3:
+            TED Üniversitesi Çocuklar İçin Fırsat Eşitliği Topluluğu olarak Çankaya Belediyesi desteği ile gerçekleştirmiş olduğumuz bu projede Çankaya Belediyesi bünyesindeki sesli kütüphaneyi ziyaret ederek görme engelli çocuklar için üyelerimizle çocuk kitapları seslendirmiş ve onların kulaklarında sonsuz bir yer edinmiştik. Geleneksel hale gelen bu projemizde dernekleşme sürecinde de nicelerini gerçekleştirmeye devam edeceğiz. </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 2: Rengarenk Yarınlar -->
+    <div class="project">
+      <div class="project-content">
+        <img src=img/2A5A5C07-1573-4474-858B-655ACC668BB2.jpg alt="Project 2 Image" class="project-image">
+        <div class="project-details">
+          <h2>Rengarenk Yarınlar</h2>
+          <p>Geçtiğimiz yıllarda ekip olarak dönem sonu etkinliğimiz Polatlı’da ve Eskişehir’de ziyaret ettiğimiz okulların duvarlarını gönüllülerimizle renklendirip neşelendirdik. Köy okulunun duvarlarını boyadıktan sonra öğrencilerle çeşitli etkinlikler gerçekleştirdik ve oyunlar oynadık, bu süreçte de gelenek haline gelen bu etkinliğimizi devam ettirmeyi amaçlamaktayız.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 3: Minik Dilekler Ağacı -->
+    <div class="project">
+      <div class="project-content">
+        <img src="img/06D1CDED-60A6-415E-87C6-82A3AB6FBE7F.jpeg" alt="Project 3 Image" class="project-image">
+        <div class="project-details">
+          <h2>Minik Dilekler Ağacı</h2>
+          <p>Çocuklar İçin Fırsat Eşitliği Topluluğu olarak TED Üniversitesi kütüphanesi ile üç senedir düzenlediğimiz bu projede üniversite kütüphanemize kurduğumuz yılbaşı ağacına köy okullarındaki çocukların hayalindeki oyuncakları astık. Öğrenci ve öğretim görevlilerinin desteği sayesinde birçok oyuncak, kırtasiye malzemesi, bot ve mont topladık. Geçtiğimiz senelerde Bolu, Tokat, Sivas, Kayseri ve Adana’da olmak üzere toplamda 12 köy okulundaki çocukları ziyaret ettik. Yüz Proje kapsamında tanıştığımız çocuklara hediyelerini verdik; çeşitli oyun, müzik, sanat ve yüz boyama atölyeleri gerçekleştirdik. Dernek olarak daha nice çocuğa ulaşarak onların hayallerini gerçekleştirmek istiyoruz!</p>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+<!-- End of main container -->
+
+<!-- End of main container -->
+
+<!-- ======= Footer ======= -->
+<footer class="footer-section">
+  <div class="container">
+    <div class="footer-content pt-5 pb-5">
+      <div class="row">
+        <div class="col-xl-4 col-lg-4 mb-50">
+          <div class="footer-widget">
+            <div class="footer-logo">
+              <a href="index.html"><img class="logo-img" src="img/Dernek Logo PNG.png" alt="Your Logo"></a>
+            </div>
+            <div class="footer-text">
+              <p>Dernek olarak daha nice çocuğa ulaşarak onların hayallerini gerçekleştirmek istiyoruz!</p>
+            </div>
+            <div class="footer-social-icon">
+              <span>Bize Ulaşın</span>
+              <a href="https://www.instagram.com/cocuklaricinfirsatesitligi?igsh=MWo4d2VvYnVzYXozag==" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="mailto:cocuklaricinfirsatesitligi@gmail.com">
+                <i class="fas fa-envelope"></i> cocuklaricinfirsatesitligi@gmail.com
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+          <div class="footer-widget">
+            <div class="footer-widget-heading">
+              <h3>Useful Links</h3>
+            </div>
+            <ul>
+              <li><a href="index.html">Anasayfa</a></li>
+              <li><a href="aboutus.html">Hakkımızda</a></li>
+              <li><a href="projects.html">Projelerimiz</a></li>
+              <li><a href="joinus.html">Üretim Ekibimize Katıl</a></li>
+              <li><a href="https://forms.gle/dJkDTiuaKpowspBi8">Gönüllü Ol</a></li>
+              <li><a href="https://forms.gle/CdCHFNFKxF37JFfKA">Bize Ulaşın</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</footer><!-- End Footer -->
+
+
+</body>
+</html>
